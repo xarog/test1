@@ -1,2 +1,2 @@
-document.getElementByTagName('body').innerHTML = 'dd';
+document.getElementsByTagName('body').innerHTML = 'dd';
 console.log('It works !');
