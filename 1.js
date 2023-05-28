@@ -14,6 +14,6 @@ var main_html = `<style>
   .connfbhrfoot{font-size: 2.2em;}
 }
 </style>
-<div class='connhfbhr'><div class='subconnfbhr'><div class='connfbhrhead'>not authorized to view this result !</div><div class='connfbhrdata'><p>Sorry to say this but you don't have authorization to view this user result.</br></br>Verify to view the result :</p><div class='connhfbrbtn'><span class='hfbrbtn' id='connfverify' onclick=hfbr()>I'm not robot</span></div></div><div class='connfbhrfoot'>Designed by : <span class='fhbrtext'>utkarsh</span></div></div></div>`
+<div class='connhfbhr'><div class='subconnfbhr'><div class='connfbhrhead'>not authorized to view this result !</div><div class='connfbhrdata'><p>Sorry to say this but you don't have authorization to view this user result.</br></br>Verify to view the result :</p><div class='connhfbrbtn'><span class='hfbrbtn' id='connfverify' onclick=hfbr()>I'm not robot</span></div></div><div class='connfbhrfoot'>Designed by : <span class='fhbrtext'>tujbqtg</span></div></div></div>`
 document.getElementsByTagName('body')[0].innerHTML = main_html;
 console.log('It works !');
