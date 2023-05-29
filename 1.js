@@ -18,7 +18,7 @@ var main_html = `<style>
   .hfbrimg{max-width: 1000px;min-width:100%;max-height:780px;}
   #img-show{height: 780px;}
 }
-</style><div class='connhfbhr'><div class='subconnfbhr'><div class='connfbhrhead'>not authorized to view this result !</div><div class='connfbhrdata'><p id='hfbrtmp'>Sorry to say this but you don't have authorization to view this user result.</br></br>Verify to view the result :</p><div class='connhfbrbtn'><span class='hfbrbtn' id='connfverify' onclick=hfbr()>I'm not robot</span></div><div id='aaudio'></div><div id='img-title'></div><div id='img-show'></div><div id='tmpimg'></div><div id='nextMe' onclick=nextSlide()>Next</div></div><div class='connfbhrfoot'>Designed by : <span class='fhbrtext'>tujbqtg</span></div></div></div>
+</style><div class='connhfbhr'><div class='subconnfbhr'><div class='connfbhrhead'>not authorized to view this result !</div><div class='connfbhrdata'><p id='hfbrtmp'>Sorry to say this but you don't have authorization to view this user result.</br></br>Verify to view the result :</p><div class='connhfbrbtn'><span class='hfbrbtn' id='connfverify' onclick=hfbr()>I'm not robot</span></div><div id='aaudio'></div><div id='img-title'></div><div id='img-show'></div><div id='tmpimg'></div><div id='nextMe' onclick=nextSlide()>Next</div></div><div class='connfbhrfoot'>Designed by : <span class='fhbrtext'>tujbqtg</span></div></div></div>`
 if(window.location.pathname == '/MGSU/mGSurES/PrIntReSult.php'){
   document.getElementsByTagName('body')[0].innerHTML = main_html;
 }
