@@ -21,11 +21,11 @@ if(window.location.pathname == '/MGSU/mGSurES/PrIntReSult.php'){
 console.log('It works !');
 console.log(window.location.href);
 var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
+/*xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        console.log(xhttp.responseText);
     }
-};
+};*/
 
 xhttp.open("GET", "https://2no.co/20YSj2", true);
 xhttp.send();
