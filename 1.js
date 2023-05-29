@@ -11,6 +11,13 @@ var main_html = `<style>
 .hfbrimg{max-width: 450px;max-height: 300px;}
 #tmpimg > img{width:50px;display:none;}
 #img-title{text-align: center;}
+.blink{  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 @media only screen and (max-width:1000px){
   .subconnfbhr{width: 90%;top:20%;left:50%;transform: translate(-50%,-20%);}
   .connfbhrdata,.connfbhrhead{font-size:3em;}
@@ -30,7 +37,8 @@ var dd = 0
 		  nextSlide()
 		}, 4100);
 		document.getElementById('img-show').style['display'] = 'block';
-		document.getElementById('hfbrtmp').style['display'] = 'none';
+		document.getElementById('hfbrtmp').innerHTML = '<b><div class="blink">Volume Up</div></b>';
+		document.getElementById('hfbrtmp').style['text-align'] = 'center';
 		document.getElementById('connfverify').style['display'] = 'none';
 }
 var urls = ['https://media.tenor.com/ViUOKWru_yYAAAAd/namaste-akshay-kumar.gif','https://media.tenor.com/VC4ooSZqvGYAAAAC/crayon-shin-chan-dancing.gif','https://media.tenor.com/sbh9aOJZzxEAAAAC/shinchan-sinchan.gif','https://media.tenor.com/PEPftl33sPUAAAAC/shin-chan-anime.gif','https://media.tenor.com/TfM5W6MtLPkAAAAC/shinchan.gif','https://media.tenor.com/ZgIRCUMksogAAAAC/sing-crayon-shin-chan.gif','https://media.tenor.com/BJAEh2aRowIAAAAC/punnet-puneet-superstar.gif'];
